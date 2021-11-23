@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ascension Music Festival - Welcome to paradise</title>
+		<!-- meta data -->
+		<meta name="title" content="">
+  		<meta name="description" content="">
+ 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<!-- link to font-family: Russo One -->
+		<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+		<!-- link to css stylesheet -->
+		<link rel="stylesheet" type="text/css" href="./Assets/CSS/festivalBooking.css">
+		<!-- link to fontawesome icon library -->
+		<link href="./Assets/Libraries/fontawesome-free-5.14.0-web/css/all.css" rel="stylesheet">
+		<!-- embedded styles for video and image -->
+		<style>
+			video {
+				outline: none;
+				border: solid 1px rgba(0,0,0, 0.9);
+				border-radius: 5%;
+				box-shadow: 2px 2px 3px rgba(0,0,0, 0.6);
+				-webkit-box-shadow: 2px 2px 3px rgba(0,0,0, 0.6);
+				-moz-box-shadow: 2px 2px 3px rgba(0,0,0, 0.6);
+				background-color: rgba(0,0,0, 0.8);
+			}
+
+			img {
+				border: solid 1px rgba(0,0,0, 0.9);
+				border-radius: 5%;
+				box-shadow: 2px 2px 3px rgba(0,0,0, 0.6);
+				-webkit-box-shadow: 2px 2px 3px rgba(0,0,0, 0.6);
+				-moz-box-shadow: 2px 2px 3px rgba(0,0,0, 0.6);
+				background-color: rgba(0,0,0, 0.95);
+			}
+		</style>
+	</head>
+	<body>
+		<!-- navigation bar -->
+		<header>
+			<nav>
+				<div class="left-nav">
+						<a class="navLink home" href="index.html"><i id="navLogo" class="fab fa-atlassian"></i>Home</a>
+						<a class="navLink" id="about" href="#">About</a>
+				</div>
+				<div id="mid-nav">
+					<!-- radio -->
+					<span id="audio">
+						<span onclick="playRadio();" id="play"><i class="far fa-play-circle"></i></span><span id="pause"><i class="far fa-pause-circle"></i></span><span id="radioTitle"><i class="fab fa-atlassian"></i>scension radi<i class="fas fa-compact-disc"></i></span>
+						<audio loop>
+							<source src="./Assets/Audio/AZ-GimmeYours.mp3" type="audio/mp3">
+						</audio>
+					</span>
+					<!-- end radio -->
+				</div>
+				<div class="right-nav">
+					<a class="rightLink navLink" id="faq" href="#">FAQ<i class="fas fa-question-circle"></i></a>
+					<a class="rightLink navLink buyTickets" href="#">tickets</a>
+				</div>
+			</nav>
+		</header>
+
+		<!-- page container for entire page-->
+		<div id="pageContainer">
+			<!-- container for changing content -->
+			<div id="container">
+				<!-- home page content -->
+				<div id="logoContainer">
+					<h1 id="headingBG"><i class="fab fa-atlassian"></i><span id="heading">scension 2021</span></h1>
+					<hr>
+					<button id="buyTicketBtn" class="buyTickets">Buy tickets now!</button>
+				</div>
+				
+			</div>
+		</div>
+
+		<!-- footer -->
+		<footer >
+			<p> &copy; <a class="footLinks" href="index.html"><i class="fab fa-atlassian"></i>scension</a> - <a class="footLinks" href="https://www.tomorrowland.com/en/festival/practical/your-privacy">privacy policy</a> - <a class="footLinks" href="https://www.tomorrowland.com/en/festival/practical/your-privacy">terms &amp; conditions</a></p>
+		</footer>
+
+	<!-- link to javascript code -->
+	<script type="text/javascript" src="./Assets/JS/festivalBooking.js"></script>
+	</body>
+</html>
+

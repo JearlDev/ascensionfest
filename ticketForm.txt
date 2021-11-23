@@ -1,0 +1,63 @@
+<div id="formContainer">
+					<h2>book your ticket</h2>
+					<hr>
+					<form onsubmit="processForm();">
+						<table id="formTable">
+
+								<tr>
+			 						<td class="inputLabel">First Name</td>
+			 						<td class="inputLabel">Surname</td>
+								</tr>
+								<tr>
+									<td><input class="inpt" type="text" placeholder="John" name="first" required></td>
+									<td><input class="inpt" type="text" placeholder="Doe" name="last" required></td>
+								</tr>
+							
+
+								<tr>
+									<td class="inputLabel" colspan="2">Date of Birth</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td colspan="2"><input class="inpt" type="date" name="dOB" required></td>
+									<td></td>
+								</tr>
+
+								<tr>
+									<td class="inputLabel">Email Address</td>
+									<td class="inputLabel">Telephone Number</td>
+								</tr>
+								<tr>
+									<td><input class="inpt" type="email" placeholder="johndoe@gmail.com" name="email" required></td>
+									<td><input class="inpt" type="tel" placeholder="072 364 6905" pattern="[0-9]{3}[\s][0-9]{3}[\s][0-9]{4}" name="tel" required></td>
+								</tr>
+							
+								<tr>
+									<td class="inputLabel">Ticket Type</td>
+									<td class="inputLabel">How many?</td>
+								</tr>
+								<tr>
+									<td>
+										<select class="inpt" id="ticketType" name="ticketType">
+											<option value="750">General Access</option>
+											<option value="1500">VIP</option>
+										</select>
+									</td>
+									<td>
+										<input class="inpt" min="1" max="10" type="number" value="1" name="numTickets" required>
+									</td>
+								</tr>
+							
+
+							<tr>
+								<td colspan="2">
+									<input class="buttons" type="submit" value="proceed to checkout">
+									<input class="buttons" type="reset">
+								</td>
+								<td>
+								</td>
+							</tr>
+
+						</table>
+					</form>
+				</div>
