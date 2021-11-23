@@ -1,0 +1,76 @@
+<div id="aboutPage">
+					<section>
+
+					<div class="aboutPageSection">
+						<h3>History of Ascension</h3>
+						<p>Ascension music festival was started in the early 2000s where it became well known for showcasing some of the best artists in the underground hip hop scene, with it's first ever headliner being non other than MF DOOM, a legend in the underground scene.  Over the years the festival has grown tremendously and is now known for its tendancy to shine light on lesser known artists with exceptional talent and unique sounds. Some of the most prominent artists featured over the years include J-Dilla, SLick Rick and Q-tip.
+						It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+
+						<figure>
+							<img id="doomPic" alt="MF DOOM on stage" src="./Assets/Images/doom.png">
+							<figcaption>Ascension 2001, the beginning.</figcaption>
+						</figure>
+					</div>
+
+					<div class="aboutPageSection">
+						<h3>Our Mission</h3>
+						<p>Our mission here at ascension festival is to showcase the best hip hop artists from the underground scene. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+						At Ascension music festival we guarantee:
+						<ul id="gList">
+							<li>Quality performances from the world's best artists</li>
+							<li>Exposure to exceptional up and coming talent</li>
+							<li>Good vibes and mind-blowing levels of energy</li>
+						</ul>
+						</p>
+					</div>
+
+					<div class="aboutPageSection">
+						<h3>More info</h3>
+						<p id="moreInfo">
+							Pellentesque finibus, nunc nec porttitor fringilla, tortor arcu aliquam dolor, quis porttitor eros ex vel felis. Donec ullamcorper tellus a mauris molestie rhoncus. Cras vestibulum semper placerat. Nulla non lorem vulputate, gravida eros eget, ultrices eros. Duis nec elementum libero, sed interdum est. Aenean sagittis faucibus dictum. Duis a semper elit, non lacinia purus. Suspendisse commodo rhoncus mauris, sed malesuada lacus tempor ac. Phasellus quis interdum sapien. Quisque nisi urna, facilisis sed malesuada et, hendrerit nec mauris. Integer id orci quis nibh tempor egestas accumsan vitae nulla and thats that. Ascension festival is the place to be. So on and so forth. And one more sentence to fill up the space. Pellentesque finibus, nunc nec porttitor fringilla, tortor arcu aliquam dolor, quis porttitor eros ex vel felis. Donec ullamcorper tellus a mauris molestie rhoncus. Cras vestibulum semper placerat. Nulla non lorem vulputate, gravida eros eget, ultrices eros. Duis nec elementum libero, sed interdum est. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Nulla non lorem vulputate, gravida eros eget, ultrices eros. Duis nec elementum libero, sed interdum est. And this is the end of the paragraph my friend, gravida eros eget, ultrices eros. Duis nec elementum libero, sed interdum est.
+						</p>
+					</div>
+
+					</section>
+
+					<aside>
+
+						<div id="lineUpDiv">
+							<h3 id="lineUpHead" style="font-size: 30px; margin: 10px auto; width: 300px; background-color: rgba(0,0,0,0.8); padding: 5px 3px; border-radius: 10%;"><i class="fab fa-atlassian"></i>scension 2021</h3>
+							<p id="lineUp"><a class="artistLink" href="https://www.factmag.com/2013/06/08/the-essential-mf-doom/"><span id="mfDoom" class="artist">MF DOOM</span></a><a class="artistLink" href="https://www.billboard.com/articles/columns/hip-hop/7735653/joey-badass-future-mask-off-freestyle-video"><span id="joey" class="artist">Joey Bada$$</span></a><a class="artistLink" href="https://centralsauce.com/flatbush-zombies-unreleased-music"><span id="fbz" class="artist">Flatbush Zombies</span></a><span class="artist">A$ap Twelvy</span><span class="artist">Burman</span><span class="artist">Bodega Bamz</span><span class="artist">Mick Jenkins</span><span class="artist">Bishop Nehru</span><a class="artistLink" href="https://www.rollingstone.com/music/music-news/15-fun-facts-about-wu-tang-clans-enter-the-wu-tang-36-chambers-187134/"><span id="wuTang" class="artist">Wu-tang Clan</span></a><a class="artistLink" href="https://www.youtube.com/watch?v=SUUcyU1UTqU"><span id="ak" class="artist">AK the Saviour</span></a><span class="artist">Westside Gunn</span><span class="artist">DOMO Genesis</span><span class="artist">Hodgy</span><span class="artist">Run the Jewels</span><span class="artist">Earl Sweatshirt</span><span id="madV" class="artist">MadVillian</span><a class="artistLink" href="https://www.rollingstone.com/music/music-features/the-roots-black-thought-on-how-he-spit-nearly-10-minute-viral-freestyle-197206/"><span id="bT" class="artist">Black Thought</span></a><span class="artist">RokaMouth</span><span class="artist">Kirk Knight</span><span class="artist">Nyck Caution</span><span class="artist">Kidaf</span><span class="artist">CJ Fly</span><span id="brock" class="artist">Brockhampton</span></p>
+						</div>
+
+						<div class="aboutPageSection">
+							<h3>How to experience these exceptional artists and more live:</h3>
+							<p>
+								<ol style="text-align: left">
+									<li>Click the tickets link on the navigation menu</li>
+									<li>Enter the relevant information</li>
+									<li>Make your payment</li>
+									<li>Be at Central park on 31<sup>st</sup> October 2021</li>
+								</ol>
+							</p>
+						</div>
+
+						<div class="aboutPageSection">
+							<h3>Ascension 2020 Aftermovie</h3>
+							<video onplay="pauseRadio();" height="225px" width="400px" poster="./Assets/Images/ascensionFestVid.png" controls>
+								<source src="./Assets/Videos/ascension2020.mp4" type="video/mp4">
+							</video>
+						</div>
+
+						<div class="aboutPageSection">
+							<h3>Festival Details</h3>
+							<p>
+								Pellentesque finibus, nunc nec porttitor fringilla, tortor arcu aliquam dolor, quis porttitor eros ex vel felis. Donec ullamcorper tellus a mauris molestie rhoncus. Cras vestibulum semper placerat. Nulla non lorem vulputate, gravida eros eget, ultrices eros. Duis nec elementum libero, sed interdum est.
+							<dl>
+            					<dt>Venue</dt>
+               						<dd>Central Park, New York, USA</dd>
+           					 	<dt>Date</dt>               
+  									<dd><time datetime="2021-10-31"> 31 October 2021</time></dd>
+        					</dl>
+							</p>
+						</div>
+
+					</aside>
+				</div>

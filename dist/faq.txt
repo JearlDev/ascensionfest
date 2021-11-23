@@ -1,0 +1,23 @@
+<div id="faqHead"><h2>Frequently asked questions</h2></div>
+
+				<div class="faqCont">
+					<div class="faqLeft quest1" onclick="displAnswer1();">
+						<p style="display: inline-block; width: 90%;">If I have already bought my Ascension 2020 ticket how do I get a refund?</p>
+						<i style="display: inline-block; float: right; position: relative; top: 35px;" class="fas fa-chevron-right"></i>
+					</div>
+					<div class="faqRight quest2" onclick="displAnswer2();">
+						<p style="display: inline-block; width: 90%;">Will Ascension 2020 take place?</p>
+						<i style="display: inline-block; float: right; position: relative; top: 35px;" class="fas fa-chevron-right"></i>
+					</div>
+				</div>
+
+				<div class="faqCont">
+					<div class="faqLeft quest3" onclick="displAnswer3();">
+						<p style="display: inline-block; width: 90%;">Will the line-up for Ascension 2021 be the same as the 2020 line-up?</p>
+						<i style="display: inline-block; float: right; position: relative; top: 35px;" class="fas fa-chevron-right"></i>
+					</div>
+					<div class="faqRight quest4" onclick="displAnswer4();">
+						<p style="display: inline-block; width: 90%;">If my address has changed, do I have to change the shipping address for my ticket?</p>
+						<i style="display: inline-block; float: right; position: relative; top: 35px;" class="fas fa-chevron-right"></i>
+					</div>
+				</div>
